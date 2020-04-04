@@ -23,7 +23,7 @@ jobs:
       - name: Install
         run: npm ci
       - name: Build
-        run: quasar build
+        run: npm run build
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@master
         env:
